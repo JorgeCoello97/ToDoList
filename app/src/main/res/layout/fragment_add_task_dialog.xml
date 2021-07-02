@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter a new task to do:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Overline"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="25dp">
+        <TextView
+            android:id="@+id/textViewNewTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TASK:"
+            android:textSize="12sp"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Overline" />
+        <EditText
+            android:id="@+id/editTextNewTask"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textAlignment="center"
+            android:inputType="textMultiLine"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:lines="2"
+            android:maxLength="40"
+
+            android:hint="Value"
+            android:imeOptions="actionDone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonNewTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREATE" />
+</LinearLayout>
