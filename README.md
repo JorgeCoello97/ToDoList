@@ -2,7 +2,7 @@
 <img  src="./todolist.png"/>
 
 ## Description
-To do list applicaction.
+To do list application.
 Created on 2021.
 
 ## Targets
